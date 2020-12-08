@@ -1,17 +1,17 @@
 ---
-- metadata:
-    season: 1
-    episodeNo: 1
-    totalEpisodeNo: 1
-    dateRecorded: "2020-11-23"
-    dateReleased: "2020-12-11"
-    filename: solutions-ep001-ending-homelessness.mp3
-  links:
-    youtube: ""
-    mp3: https://listening-circle.sfo2.cdn.digitaloceanspaces.com/solutions-podcast/solutions-ep001-ending-homelessness.mp3
-    spotify: ""
-    medium: "",
-    reddit: "",
-  info:
-    title: Ending Homelessness
-    description: ""
+metadata:
+  season: 1
+  episodeNo: 1
+  totalEpisodeNo: 1
+  dateRecorded: "2020-11-23"
+  dateReleased: "2020-12-11"
+  filename: solutions-ep001-ending-homelessness.mp3
+links:
+  youtube: ""
+  mp3: https://listening-circle.sfo2.cdn.digitaloceanspaces.com/solutions-podcast/solutions-ep001-ending-homelessness.mp3
+  spotify: ""
+  medium: "",
+  reddit: "",
+info:
+  title: Ending Homelessness
+  description: ""
