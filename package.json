@@ -1,0 +1,25 @@
+{
+  "name": "solutions",
+  "description": "Solutions podcast stuff including RSS generator",
+  "version": "1.0.0",
+  "main": "feed-gen.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FOSSforlife/solutions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js-yaml": "^3.14.1",
+    "podcast": "^1.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/FOSSforlife/solutions/issues"
+  },
+  "homepage": "https://github.com/FOSSforlife/solutions#readme"
+}
