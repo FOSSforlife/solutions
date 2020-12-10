@@ -24,6 +24,7 @@ episodes.forEach((ep) => {
     date: ep.metadata.dateReleased,
     // itunesDuration: ???,
     itunesImage: ep.metadata.img,
+    itunesSummary: ep.info.description,
   });
 });
 
