@@ -3,16 +3,16 @@ metadata:
   season: 1
   episodeNo: 1
   totalEpisodeNo: 1
-  dateRecorded: "2020-11-23"
-  dateReleased: "2020-12-11"
+  dateRecorded: '2020-11-23'
+  dateReleased: '2020-12-11'
   filename: solutions-ep001-ending-homelessness.mp3
 links:
-  youtube: ""
+  youtube: ''
   mp3: https://listening-circle.sfo2.cdn.digitaloceanspaces.com/solutions-podcast/episodes/solutions-ep001-ending-homelessness.mp3
-  spotify: ""
-  medium: ""
-  reddit: ""
-  github: ""
+  spotify: ''
+  medium: https://medium.com/solutions/solutions-episode-1-ending-homelessness-b8d7932fa9b2
+  reddit: ''
+  github: ''
 info:
   title: Ending Homelessness
-  description: ""
+  description: Grant and Elias tackle the United States homelessness epidemic, discussing Housing First policy, zoning laws, 3D printing, and various aspects of building and distributing affordable housing for all.
