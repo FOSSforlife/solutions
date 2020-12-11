@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+	<channel>
+		<title><![CDATA[Solutions]]></title>
+		<description><![CDATA[We use research and evidence to tackle the biggest problems in society, from economic justice to cultural issues and more.]]></description>
+		<link>https://medium.com/solutions/</link>
+		<image>
+			<url>https://listening-circle.sfo2.cdn.digitaloceanspaces.com/solutions-podcast/cover.png</url>
+			<title>Solutions</title>
+			<link>https://medium.com/solutions/</link>
+		</image>
+		<generator>Podcast for Node</generator>
+		<lastBuildDate>Fri, 11 Dec 2020 04:19:43 GMT</lastBuildDate>
+		<atom:link href="https://listening-circle.sfo2.cdn.digitaloceanspaces.com/solutions-podcast/feed.xml" rel="self" type="application/rss+xml"/>
+		<author><![CDATA[Solutions Team]]></author>
+		<language><![CDATA[en-US]]></language>
+		<managingEditor><![CDATA[Elias Jackson]]></managingEditor>
+		<webMaster><![CDATA[Elias Jackson]]></webMaster>
+		<category><![CDATA[politics]]></category>
+		<itunes:author>Solutions Team</itunes:author>
+		<itunes:subtitle>Solving the world&apos;s problems.</itunes:subtitle>
+		<itunes:summary>We use research and evidence to tackle the biggest problems in society, from economic justice to cultural issues and more.</itunes:summary>
+		<itunes:type>episodic</itunes:type>
+		<itunes:owner>
+			<itunes:name>Elias Jackson</itunes:name>
+			<itunes:email>ejthedj0@gmail.com</itunes:email>
+		</itunes:owner>
+		<itunes:explicit>No</itunes:explicit>
+		<itunes:category text="News">
+		</itunes:category>
+		<itunes:image href="https://listening-circle.sfo2.cdn.digitaloceanspaces.com/solutions-podcast/cover.png"/>
+		<item>
+			<title><![CDATA[Ending Homelessness]]></title>
+			<description><![CDATA[Grant and Elias tackle the United States homelessness epidemic, discussing Housing First policy, zoning laws, 3D printing, and various aspects of building and distributing affordable housing for all.]]></description>
+			<link>https://medium.com/solutions/solutions-episode-1-ending-homelessness-b8d7932fa9b2</link>
+			<guid isPermaLink="true">https://medium.com/solutions/solutions-episode-1-ending-homelessness-b8d7932fa9b2</guid>
+			<dc:creator><![CDATA[Solutions Team]]></dc:creator>
+			<pubDate>Fri, 11 Dec 2020 00:00:00 GMT</pubDate>
+			<enclosure url="https://listening-circle.sfo2.cdn.digitaloceanspaces.com/solutions-podcast/episodes/solutions-ep001-ending-homelessness.mp3" length="0" type="audio/mpeg"/>
+			<itunes:summary>Grant and Elias tackle the United States homelessness epidemic, discussing Housing First policy, zoning laws, 3D printing, and various aspects of building and distributing affordable housing for all.</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+		</item>
+	</channel>
+</rss>
