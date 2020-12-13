@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Solutions',
   description: 'We use research and evidence to tackle the biggest problems in society, from economic justice to cultural issues and more.',
-  feedUrl: 'https://listening-circle.sfo2.cdn.digitaloceanspaces.com/solutions-podcast/feed.xml',
+  feedUrl: 'https://listening-circle.sfo2.cdn.digitaloceanspaces.com/solutions-podcast/rss/feed.xml',
   siteUrl: 'https://medium.com/solutions/',
   imageUrl: 'https://listening-circle.sfo2.cdn.digitaloceanspaces.com/solutions-podcast/cover.png',
   author: 'Solutions Team',
