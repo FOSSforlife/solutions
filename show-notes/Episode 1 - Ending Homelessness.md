@@ -4,7 +4,7 @@ We are excited to present the debut episode of Solutions! This is a new podcast 
 
 In this episode, Grant and Elias tackle the United States homelessness epidemic. In the process, we go over Housing First policy, zoning laws, 3D printing, and various aspects of building and distributing affordable housing for all.
 
-Listen: [Spotify](https://open.spotify.com/episode/771je7sMVgAXzOURqVgWzQ?si=00wNcmTWT7WZyFvRf_LTzA) | [YouTube](https://youtu.be/XvGVKvsL1Zw) | [RSS](https://open.spotify.com/show/2mmb9lTkWVwMI1UEe5rZqA)
+Listen: [Spotify](https://open.spotify.com/episode/42POAAGvwOxJvVElA2grAP?si=SB8p0fiFRqCpM8SMaV-DxQ) | [YouTube](https://youtu.be/XvGVKvsL1Zw) | [RSS](https://listening-circle.sfo2.digitaloceanspaces.com/solutions-podcast/rss/feed.xml)
 
 Intro music: “Eternal Bonds” by Sha Nova. Check them out on [Spotify](https://open.spotify.com/artist/2S3pdUXiBLhJorexNAW9je?si=ZSHTD56mT9Crw21feVYsxA) and [Bandcamp](https://shanova.bandcamp.com/releases)!
 
