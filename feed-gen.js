@@ -16,7 +16,7 @@ episodes.forEach((ep) => {
   feed.addItem({
     title: ep.info.title,
     description: ep.info.description,
-    url: ep.links.medium,
+    url: 'https://instagram.com/solnspodcast',
     enclosure: {
       url: ep.links.mp3,
       type: 'audio/mpeg',
