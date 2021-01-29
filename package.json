@@ -3,7 +3,6 @@
   "description": "Solutions podcast stuff including RSS generator",
   "version": "1.0.0",
   "main": "feed-gen.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +15,9 @@
   "license": "ISC",
   "dependencies": {
     "js-yaml": "^3.14.1",
-    "podcast": "^1.3.0"
+    "node-fetch": "^2.6.1",
+    "podcast": "^1.3.0",
+    "prettier": "^2.2.1"
   },
   "bugs": {
     "url": "https://github.com/FOSSforlife/solutions/issues"
