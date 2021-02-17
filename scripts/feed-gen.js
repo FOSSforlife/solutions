@@ -37,7 +37,7 @@ episodes.forEach((ep) => {
 
 const xml = feed.buildXml('\t');
 
-if (!fs.existsSync(path.join(__dirname, 'rss'))) {
-  fs.mkdirSync(path.join(__dirname, 'rss'));
+if (!fs.existsSync(path.join(__dirname, '..', 'rss'))) {
+  fs.mkdirSync(path.join(__dirname, '..', 'rss'));
 }
 fs.writeFileSync(path.join(__dirname, '..', 'rss', 'feed.xml'), xml);
