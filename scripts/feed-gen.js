@@ -40,4 +40,4 @@ const xml = feed.buildXml('\t');
 if (!fs.existsSync(path.join(__dirname, 'rss'))) {
   fs.mkdirSync(path.join(__dirname, 'rss'));
 }
-fs.writeFileSync(path.join(__dirname, 'rss', 'feed.xml'), xml);
+fs.writeFileSync(path.join(__dirname, '..', 'rss', 'feed.xml'), xml);
