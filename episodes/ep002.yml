@@ -11,10 +11,10 @@ metadata:
     mins: 14
     secs: 34
 links:
-  youtube:
+  youtube: https://youtu.be/ziMd95kEpC4
   mp3: https://listening-circle.sfo2.cdn.digitaloceanspaces.com/solutions-podcast/episodes/solutions-ep002-spread-of-misinformation.mp3
   spotify:
-  medium:
+  medium: https://medium.com/solutions/spread-of-misinformation-fb4aa8ff7c5f
   reddit:
   github:
 info:
