@@ -6,6 +6,9 @@ metadata:
   dateRecorded: '2020-11-23'
   dateReleased: '2020-12-11'
   filename: solutions-ep001-ending-homelessness.mp3
+  length:
+    mins: 47
+    secs: 26
 links:
   youtube: https://youtu.be/XvGVKvsL1Zw
   mp3: https://listening-circle.sfo2.cdn.digitaloceanspaces.com/solutions-podcast/episodes/solutions-ep001-ending-homelessness-1.mp3

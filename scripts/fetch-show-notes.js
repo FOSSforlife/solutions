@@ -1,7 +1,11 @@
 /* Usage:
-*  node <path to script>
-*  node <path to script> <episode number>
-*/
+ *  node <path to script>
+ *  node <path to script> <episode number>
+ */
+
+// TODO: get latest from rss
+// TODO: update yaml with medium link
+// TODO: merge reddit script into this
 
 const fs = require('fs');
 const yaml = require('js-yaml');
@@ -20,9 +24,12 @@ fs.readFile(ymlFile, (err, data) => {
   const episodeInfo = yaml.safeLoad(data);
 
   const mediumLink = episodeInfo.links.medium;
-  const mdFile = `show-notes/${episodeId.padStart(3, '0')} - ${episodeInfo.info.title}.md`;
-  mediumToMarkdown(mediumLink)
-  .then(result => fs.writeFileSync(mdFile, result));
+  const mdFile = `show-notes/${episodeId.padStart(3, '0')} - ${
+    episodeInfo.info.title
+  }.md`;
+  mediumToMarkdown(mediumLink).then((result) =>
+    fs.writeFileSync(mdFile, result)
+  );
 
   console.log(`File written to ${mdFile}.`);
-})
+});

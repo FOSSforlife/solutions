@@ -13,7 +13,7 @@ jobs:
       - name: NPM install
         run: npm ci
       - name: Build podcast XML
-        run: node feed-gen
+        run: node scripts/feed-gen
       - name: Upload to hosting site
         uses: jakejarvis/s3-sync-action@master
         with:

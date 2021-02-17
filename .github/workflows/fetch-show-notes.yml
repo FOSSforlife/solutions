@@ -1,0 +1,14 @@
+name: update-rss
+
+on: repository_dispatch
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: NPM install
+        run: npm ci
+      - name: Build podcast XML
+        run: node scripts/fetch-show-notes
+# TODO: git commit/push
