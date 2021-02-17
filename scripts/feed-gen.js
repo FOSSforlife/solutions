@@ -5,9 +5,9 @@ const path = require('path');
 const yaml = require('js-yaml');
 
 const episodes = [];
-for (const file of fs.readdirSync(path.join(__dirname, 'episodes'))) {
+for (const file of fs.readdirSync(path.join(__dirname, '..', 'episodes'))) {
   episodes.push(
-    yaml.safeLoad(fs.readFileSync(path.join(__dirname, 'episodes', file)))
+    yaml.safeLoad(fs.readFileSync(path.join(__dirname, '..', 'episodes', file)))
   );
 }
 const feed = new Podcast(feedOptions);
