@@ -1,12 +1,3 @@
----
-
-firstPublishedAt: 1613547967854
-latestPublishedAt: 1613586268465
-slug: spread-of-misinformation
-title: Spread of Misinformation
-
----
-
 ![](https://cdn-images-1.medium.com/max/2560/1*mvvvVlQVFOMDpSTslzT99Q.png)
 
 Our second episode of Solutions is about misinformation: what is it, why does it spread, who spreads it, and what can be done about it? The problem of misinformation is perhaps more pressing now than it ever has been, as social media and divisive politics have reshaped the way that we interact with the world around us.
@@ -26,7 +17,9 @@ Listen: [Spotify](https://open.spotify.com/episode/30UWqAjoqFDCMGnAFisdgK?si=rPk
 
 Intro music: “Eternal Bonds” by Sha Nova. Check them out on [Spotify](https://open.spotify.com/artist/2S3pdUXiBLhJorexNAW9je?si=ZSHTD56mT9Crw21feVYsxA) and [Bandcamp](https://shanova.bandcamp.com/releases)!
 
-Timestamps:
+# Timestamps
+
+```
 0:00 Introduction
 1:04 Quick note about our modified research strategy
 2:02 Defining “misinformation”
@@ -42,6 +35,7 @@ Timestamps:
 51:04 Potential solution: decentralized social networks?
 54:46 Section 230 and potential amendments
 1:03:50 Conclusion: What can you do?
+```
 
 # What is misinformation?
 

@@ -1,12 +1,3 @@
----
-
-firstPublishedAt: 1607716945243
-latestPublishedAt: 1608267884764
-slug: ending-homelessness-solutions-ep-1
-title: Ending Homelessness (Solutions Ep. 1)
-
----
-
 ![](https://cdn-images-1.medium.com/max/2560/1*ClCE3amVMMU8a6YNiFerdA.png)
 
 We are excited to present the debut episode of Solutions! This is a new podcast dedicated to find pragmatic ways of tackling the most pressing current issues. This article is the show notes that correspond with the audio, but can also be read standalone.

@@ -1,4 +1,3 @@
----
 metadata:
   season: 1
   episodeNo: 1
@@ -10,12 +9,21 @@ metadata:
     mins: 47
     secs: 26
 links:
-  youtube: https://youtu.be/XvGVKvsL1Zw
-  mp3: https://listening-circle.sfo2.cdn.digitaloceanspaces.com/solutions-podcast/episodes/solutions-ep001-ending-homelessness-1.mp3
-  spotify: https://open.spotify.com/episode/60e8p45y2348bps1TfP1ox?si=9fOKyKu2RxmeeCQWN5oJbw
-  medium: https://medium.com/solutions/solutions-episode-1-ending-homelessness-b8d7932fa9b2
+  youtube: 'https://youtu.be/XvGVKvsL1Zw'
+  mp3: >-
+    https://listening-circle.sfo2.cdn.digitaloceanspaces.com/solutions-podcast/episodes/solutions-ep001-ending-homelessness-1.mp3
+  spotify: >-
+    https://open.spotify.com/episode/60e8p45y2348bps1TfP1ox?si=9fOKyKu2RxmeeCQWN5oJbw
+  medium: >-
+    https://medium.com/solutions/solutions-episode-1-ending-homelessness-b8d7932fa9b2
   reddit: ''
-  github: https://github.com/FOSSforlife/solutions/blob/main/show-notes/001%20-%20Ending%20Homelessness.md
+  github: >-
+    https://github.com/FOSSforlife/solutions/blob/main/show-notes/show-notes/001
+    - Ending Homelessness.md
 info:
   title: Ending Homelessness
-  description: In this episode, Grant and Elias tackle the United States homelessness epidemic. In the process, we go over Housing First policy, zoning laws, 3D printing, and various aspects of building and distributing affordable housing for all.
+  description: >-
+    In this episode, Grant and Elias tackle the United States homelessness
+    epidemic. In the process, we go over Housing First policy, zoning laws, 3D
+    printing, and various aspects of building and distributing affordable
+    housing for all.

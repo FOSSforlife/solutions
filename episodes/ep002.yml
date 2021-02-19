@@ -17,7 +17,9 @@ links:
   medium: 'https://medium.com/solutions/spread-of-misinformation-fb4aa8ff7c5f'
   reddit: >-
     https://www.reddit.com/r/SolutionsPodcast/comments/ln2tjn/episode_2_spread_of_misinformation/
-  github: null
+  github: >-
+    https://github.com/FOSSforlife/solutions/blob/main/show-notes/show-notes/002
+    - Spread of Misinformation.md
 info:
   title: Spread of Misinformation
   description: >-

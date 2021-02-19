@@ -1,7 +1,7 @@
 // Altered from https://github.com/ericclemmons/medium-to-markdown
 
-const fetch = require("node-fetch");
-const prettier = require("prettier");
+const fetch = require('node-fetch');
+const prettier = require('prettier');
 
 const fetchJSON = async (url, startAt = 0) => {
   const response = await fetch(url);
@@ -12,10 +12,7 @@ const fetchJSON = async (url, startAt = 0) => {
 };
 
 const convertPost = async (mediumLink) => {
-  const raw = await fetchJSON(
-    mediumLink + '?format=json',
-    16
-  );
+  const raw = await fetchJSON(mediumLink + '?format=json', 16);
 
   if (raw.error) {
     throw new Error(raw.error);
@@ -25,7 +22,7 @@ const convertPost = async (mediumLink) => {
     firstPublishedAt,
     latestPublishedAt,
     slug,
-    title
+    title,
   } = raw.payload.value;
 
   const { paragraphs, sections } = raw.payload.value.content.bodyModel;
@@ -46,17 +43,17 @@ const convertPost = async (mediumLink) => {
       while (markups.length) {
         const markup = markups.shift();
 
-        let prefix = "";
-        let suffix = "";
+        let prefix = '';
+        let suffix = '';
 
         switch (markup.type) {
           case 1:
-            prefix = "**";
-            suffix = "**";
+            prefix = '**';
+            suffix = '**';
             break;
           case 2:
-            prefix = "*";
-            suffix = "*";
+            prefix = '*';
+            suffix = '*';
             break;
 
           case 3:
@@ -77,8 +74,8 @@ const convertPost = async (mediumLink) => {
             break;
 
           case 10:
-            prefix = "`";
-            suffix = "`";
+            prefix = '`';
+            suffix = '`';
             break;
 
           default:
@@ -91,10 +88,10 @@ const convertPost = async (mediumLink) => {
           prefix,
           formatted.slice(markup.start, markup.end),
           suffix,
-          formatted.slice(markup.end)
-        ].join("");
+          formatted.slice(markup.end),
+        ].join('');
 
-        markups.forEach(next => {
+        markups.forEach((next) => {
           // Markup before changes aren't shifted
           if (next.end <= markup.start) {
             return;
@@ -119,11 +116,12 @@ const convertPost = async (mediumLink) => {
 
         case 3:
           // Ignore first title
-          return i === 0 ? "" : `# ${formatted}`;
+          return i === 0 ? '' : `# ${formatted}`;
 
         case 4:
-          const url = `https://cdn-images-1.medium.com/max/${metadata.originalWidth *
-            2}/${metadata.id}`;
+          const url = `https://cdn-images-1.medium.com/max/${
+            metadata.originalWidth * 2
+          }/${metadata.id}`;
 
           return `![${formatted}](${url})`;
 
@@ -134,7 +132,7 @@ const convertPost = async (mediumLink) => {
           return `### ${formatted}`;
 
         case 8:
-          return "```\n" + formatted + "\n```";
+          return '```\n' + formatted + '\n```';
 
         case 9:
           return `- ${formatted}`;
@@ -143,14 +141,16 @@ const convertPost = async (mediumLink) => {
           return `1. ${formatted}`;
 
         case 11:
-          var resource = (await fetchJSON(
-            `https://medium.com/media/${iframe.mediaResourceId}?format=json`,
-            16
-          )).payload.value;
+          var resource = (
+            await fetchJSON(
+              `https://medium.com/media/${iframe.mediaResourceId}?format=json`,
+              16
+            )
+          ).payload.value;
 
           switch (resource.mediaResourceType) {
             // Example: https://medium.com/storybookjs/storybook-docs-sneak-peak-5be78445094a
-            case "MediaResourceExternalLink":
+            case 'MediaResourceExternalLink':
               return `<iframe
                 width="${resource.iframeWidth}"
                 height="${resource.iframeHeight}"
@@ -160,7 +160,7 @@ const convertPost = async (mediumLink) => {
                 allowfullscreen
               ></iframe>`;
 
-            case "MediaResourceTweet":
+            case 'MediaResourceTweet':
               const tweet = await fetchJSON(
                 `https://publish.twitter.com/oembed?url=${resource.href}`
               );
@@ -175,12 +175,12 @@ const convertPost = async (mediumLink) => {
           return `#### ${formatted}`;
 
         case 14:
-          var resource = (await fetchJSON(
-            `https://medium.com/media/${
-              mixtapeMetadata.mediaResourceId
-            }?format=json`,
-            16
-          )).payload.value;
+          var resource = (
+            await fetchJSON(
+              `https://medium.com/media/${mixtapeMetadata.mediaResourceId}?format=json`,
+              16
+            )
+          ).payload.value;
 
           return `
 > [**${resource.title}**](${resource.href})
@@ -195,26 +195,13 @@ const convertPost = async (mediumLink) => {
   );
 
   sections.slice(1).forEach((section, i) => {
-    blocks.splice(section.startIndex + i, 0, "---");
+    blocks.splice(section.startIndex + i, 0, '---');
   });
 
-  const frontmatter = `
-  ---
-  firstPublishedAt: ${firstPublishedAt}
-  latestPublishedAt: ${latestPublishedAt}
-  slug: ${slug}
-  title: ${title}
-  ---
-  `;
-
   const markdown = prettier.format(
-    [frontmatter]
-      .concat(blocks)
-      .join("\n\n")
-      .split("```\n\n```")
-      .join(""),
+    blocks.join('\n\n').split('```\n\n```').join(''),
     {
-      parser: "markdown"
+      parser: 'markdown',
     }
   );
 
