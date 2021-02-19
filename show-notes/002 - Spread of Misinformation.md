@@ -4,15 +4,6 @@ Our second episode of Solutions is about misinformation: what is it, why does it
 
 As was the case with our previous installment, this article works both as show notes for the podcast and as a standalone article. In this episode, we modified our research strategy, spending more time collaborating with each other during our preparation. A topic such as this requires a lot of diligence on our part, and we believe that this improved process allowed for a more thorough approach.
 
-<iframe
-                width="600"
-                height="232"
-                src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fopen.spotify.com%2Fembed-podcast%2Fepisode%2F30UWqAjoqFDCMGnAFisdgK&display_name=Spotify&url=https%3A%2F%2Fopen.spotify.com%2Fepisode%2F30UWqAjoqFDCMGnAFisdgK&image=https%3A%2F%2Fi.scdn.co%2Fimage%2F75c8e54597bd7dd1e8d69dd6862d7f6cf7de2c6a&key=a19fcc184b9711e1b4764040d3dc5c07&type=text%2Fhtml&schema=spotify"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-
 Listen: [Spotify](https://open.spotify.com/episode/30UWqAjoqFDCMGnAFisdgK?si=rPkKnv7EQkOXlMoSREmv4g)| [YouTube](https://www.youtube.com/watch?fbclid=IwAR2OVSLMnob_4FrodLvU6lkNTAz0L3rjY7aTBSLldXICARICdlxQ6ONpOQc&v=ziMd95kEpC4&feature=youtu.be) | [RSS](https://listening-circle.sfo2.digitaloceanspaces.com/solutions-podcast/rss/feed.xml)
 
 Intro music: “Eternal Bonds” by Sha Nova. Check them out on [Spotify](https://open.spotify.com/artist/2S3pdUXiBLhJorexNAW9je?si=ZSHTD56mT9Crw21feVYsxA) and [Bandcamp](https://shanova.bandcamp.com/releases)!

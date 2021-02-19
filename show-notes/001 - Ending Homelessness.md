@@ -4,15 +4,6 @@ We are excited to present the debut episode of Solutions! This is a new podcast 
 
 In this episode, Grant and Elias tackle the United States homelessness epidemic. In the process, we go over Housing First policy, zoning laws, 3D printing, and various aspects of building and distributing affordable housing for all.
 
-<iframe
-                width="600"
-                height="232"
-                src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fopen.spotify.com%2Fembed-podcast%2Fepisode%2F60e8p45y2348bps1TfP1ox&display_name=Spotify&url=https%3A%2F%2Fopen.spotify.com%2Fepisode%2F60e8p45y2348bps1TfP1ox&image=https%3A%2F%2Fi.scdn.co%2Fimage%2F75c8e54597bd7dd1e8d69dd6862d7f6cf7de2c6a&key=a19fcc184b9711e1b4764040d3dc5c07&type=text%2Fhtml&schema=spotify"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-
 Listen: [Spotify](https://open.spotify.com/episode/60e8p45y2348bps1TfP1ox?si=GCzer070Tamo9MgRFT_NSA) | [YouTube](https://youtu.be/XvGVKvsL1Zw) | [RSS](https://listening-circle.sfo2.digitaloceanspaces.com/solutions-podcast/rss/feed.xml)
 
 Intro music: “Eternal Bonds” by Sha Nova. Check them out on [Spotify](https://open.spotify.com/artist/2S3pdUXiBLhJorexNAW9je?si=ZSHTD56mT9Crw21feVYsxA) and [Bandcamp](https://shanova.bandcamp.com/releases)!
@@ -60,15 +51,6 @@ Another example of Trump utilizing [dog whistles](https://www.dictionary.com/bro
 While Trump is only one man and will not be president for much longer, he represents a cultural attitude held by many Americans. We are both of the mindset that many of one’s attitudes and beliefs about the world are determined by social circumstances, or the world that we are raised in. The solution to combat this issue is to better understand the language that is fueled by racism and prejudice when it is used to advocate for harmful policies.
 
 # **A New Low-Cost Solution: 3D Printed Houses**
-
-<iframe
-                width="854"
-                height="480"
-                src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FPbgCu0aUobE%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DPbgCu0aUobE&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FPbgCu0aUobE%2Fhqdefault.jpg&key=d04bfffea46d4aeda930ec88cc64b87c&type=text%2Fhtml&schema=youtube"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
 
 On a lighter note, thanks to recent technological breakthroughs, there is one upcoming strategy that may not require zoning changes, cultural shifts, or huge investments. New firms have cropped up — [ICON](https://www.iconbuild.com), [Mighty Buildings](https://www.mightybuildings.com), [SQ4D](https://www.sq4d.com), and more — that are revolutionizing housing construction using 3D printing. The process, [which in ICON’s case combines robotics, software, and a new advanced material called Lavacrete](https://www.iconbuild.com/technology), is quite fascinating and unlike anything that’s been seen before. Due to the economic and technological efficiency of this process, houses can be built in less than 48 hours, cost less than $10,000 (sometimes under $4K) per unit, and require very little manual labor.
 
