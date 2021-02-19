@@ -1,6 +1,8 @@
 name: fetch-show-notes
 
-on: [repository_dispatch]
+on:
+  repository_dispatch:
+    types: [fetch-show-notes]
 
 jobs:
   update:
