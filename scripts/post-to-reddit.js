@@ -1,19 +1,24 @@
 /* Usage:
-*  node <path to script>
-*  node <path to script> <episode number>
-*/
+ *  node <path to script>
+ *  node <path to script> <episode number>
+ */
 
 const fs = require('fs');
 const yaml = require('js-yaml');
 const snoowrap = require('snoowrap');
+const dotenv = require('dotenv');
+dotenv.config();
 
 const FLAIR_ID = '234698b0-6c1c-11eb-afed-0e8677fcfabb';
 
 // use latest episode if no episode number given
 const latestEpisodeId = fs.readdirSync('./episodes').pop().substr(2, 3);
 const episodeId = process.argv[2] || latestEpisodeId;
-const mdFile = 'show-notes/' +
-  fs.readdirSync('./show-notes').find(f => f.startsWith(episodeId).padStart(3, '0'));
+const mdFile =
+  'show-notes/' +
+  fs
+    .readdirSync('./show-notes')
+    .find((f) => f.startsWith(episodeId.padStart(3, '0')));
 
 fs.readFile(mdFile, async (err, mdText) => {
   if (err) {
@@ -33,24 +38,33 @@ fs.readFile(mdFile, async (err, mdText) => {
 
   // See if post already exists
   const searchResults = await subreddit.search({
-    query: `Episode ${Number(episodeId)} flair:"Episode Discussion"`,
-
+    query: `Episode ${Number(episodeId)} flair_name:"Episode Discussion"`,
   });
-  for(let post of searchResults) {
-    if (post.title().startsWith(`Episode ${episodeId}`)) {
+  for (let post of searchResults) {
+    if (post.title.startsWith(`Episode ${Number(episodeId)}`)) {
       await post.edit(mdText);
-      console.log(`Post updated: ${(await post).url}`);
+      console.log(`Post updated: ${await post.url}`);
       return;
     }
   }
 
-  const episodeInfo = yaml.safeLoad(fs.readFileSync(`episodes/ep${episodeId.padStart(3, '0')}.yml`));
-  const selfPost = await subreddit.submitSelfpost({
-    title: `Episode ${episodeId}: ${episodeInfo.info.title}`,
-    text: mdText
-  }).sticky().selectFlair({flair_template_id: FLAIR_ID});
+  // If not, create new post
+  const episodeInfo = yaml.safeLoad(
+    fs.readFileSync(`episodes/ep${episodeId.padStart(3, '0')}.yml`)
+  );
+  const selfPost = await subreddit
+    .submitSelfpost({
+      title: `Episode ${Number(episodeId)}: ${episodeInfo.info.title}`,
+      text: mdText,
+    })
+    .approve()
+    .sticky()
+    .selectFlair({ flair_template_id: FLAIR_ID });
 
-  console.log(`Post submitted: ${selfPost.url}`);
-  episodeInfo.links.reddit = selfPost.url;
-  fs.writeFileSync(`episodes/ep${episodeId.padStart(3, '0')}.yml`, yaml.dump(episodeInfo));
+  console.log(`Post submitted: ${await selfPost.url}`);
+  episodeInfo.links.reddit = await selfPost.url;
+  fs.writeFileSync(
+    `episodes/ep${episodeId.padStart(3, '0')}.yml`,
+    yaml.dump(episodeInfo)
+  );
 });
