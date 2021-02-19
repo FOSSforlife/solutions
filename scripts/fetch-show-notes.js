@@ -32,4 +32,8 @@ fs.readFile(ymlFile, (err, data) => {
   );
 
   console.log(`File written to ${mdFile}.`);
+
+  // Update yaml
+  episodeInfo.links.github = `https://github.com/FOSSforlife/solutions/blob/main/show-notes/${mdFile}`;
+  fs.writeFileSync(ymlFile, yaml.dump(episodeInfo));
 });
