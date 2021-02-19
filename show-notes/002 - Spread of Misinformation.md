@@ -4,7 +4,7 @@ Our second episode of Solutions is about misinformation: what is it, why does it
 
 As was the case with our previous installment, this article works both as show notes for the podcast and as a standalone article. In this episode, we modified our research strategy, spending more time collaborating with each other during our preparation. A topic such as this requires a lot of diligence on our part, and we believe that this improved process allowed for a more thorough approach.
 
-Listen: [Spotify](https://open.spotify.com/episode/30UWqAjoqFDCMGnAFisdgK?si=rPkKnv7EQkOXlMoSREmv4g)| [YouTube](https://www.youtube.com/watch?fbclid=IwAR2OVSLMnob_4FrodLvU6lkNTAz0L3rjY7aTBSLldXICARICdlxQ6ONpOQc&v=ziMd95kEpC4&feature=youtu.be) | [RSS](https://listening-circle.sfo2.digitaloceanspaces.com/solutions-podcast/rss/feed.xml)
+Listen: [Spotify](https://open.spotify.com/episode/30UWqAjoqFDCMGnAFisdgK?si=rPkKnv7EQkOXlMoSREmv4g) | [YouTube](https://www.youtube.com/watch?fbclid=IwAR2OVSLMnob_4FrodLvU6lkNTAz0L3rjY7aTBSLldXICARICdlxQ6ONpOQc&v=ziMd95kEpC4&feature=youtu.be) | [RSS](https://listening-circle.sfo2.digitaloceanspaces.com/solutions-podcast/rss/feed.xml)
 
 Intro music: “Eternal Bonds” by Sha Nova. Check them out on [Spotify](https://open.spotify.com/artist/2S3pdUXiBLhJorexNAW9je?si=ZSHTD56mT9Crw21feVYsxA) and [Bandcamp](https://shanova.bandcamp.com/releases)!
 
