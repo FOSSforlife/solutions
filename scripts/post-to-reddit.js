@@ -25,6 +25,12 @@ fs.readFile(mdFile, async (err, mdText) => {
     console.error(`Show notes for episode ${episodeId} not found.`);
     process.exit(1);
   }
+  
+  const episodeInfo = yaml.safeLoad(
+    fs.readFileSync(`episodes/ep${episodeId.padStart(3, '0')}.yml`)
+  );
+  
+  mdText = `Read on Medium: ${episodeInfo.links.medium}\n\n` + mdText;
 
   const r = new snoowrap({
     userAgent: '/r/SolutionsPodcast GitHub Action',
@@ -49,9 +55,6 @@ fs.readFile(mdFile, async (err, mdText) => {
   }
 
   // If not, create new post
-  const episodeInfo = yaml.safeLoad(
-    fs.readFileSync(`episodes/ep${episodeId.padStart(3, '0')}.yml`)
-  );
   const selfPost = await subreddit
     .submitSelfpost({
       title: `Episode ${Number(episodeId)}: ${episodeInfo.info.title}`,
