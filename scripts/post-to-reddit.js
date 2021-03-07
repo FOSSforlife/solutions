@@ -30,7 +30,7 @@ fs.readFile(mdFile, async (err, mdText) => {
     fs.readFileSync(`episodes/ep${episodeId.padStart(3, '0')}.yml`)
   );
   
-  mdText = `Read on Medium: ${episodeInfo.links.medium}\n\n` + mdText;
+  mdText = `Read on Medium: ${episodeInfo.links.medium}\n` + mdText;
 
   const r = new snoowrap({
     userAgent: '/r/SolutionsPodcast GitHub Action',
