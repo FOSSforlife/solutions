@@ -1,5 +1,7 @@
 ![](https://cdn-images-1.medium.com/max/2560/1*mvvvVlQVFOMDpSTslzT99Q.png)
 
+_(NEW) Join our Discord server: [https://discord.io/solutions](https://discord.io/solutions)_
+
 Our second episode of Solutions is about misinformation: what is it, why does it spread, who spreads it, and what can be done about it? The problem of misinformation is perhaps more pressing now than it ever has been, as social media and divisive politics have reshaped the way that we interact with the world around us.
 
 As was the case with our previous installment, this article works both as show notes for the podcast and as a standalone article. In this episode, we modified our research strategy, spending more time collaborating with each other during our preparation. A topic such as this requires a lot of diligence on our part, and we believe that this improved process allowed for a more thorough approach.
