@@ -15,9 +15,16 @@ links:
     https://listening-circle.sfo2.cdn.digitaloceanspaces.com/solutions-podcast/episodes/solutions-ep003-making-a-living.mp3
   spotify: null
   medium: 'https://medium.com/solutions/making-a-living-solutions-ep-3-7451c4eb03fc'
-  reddit:
-  github:
+  reddit: >-
+    https://www.reddit.com/r/SolutionsPodcast/comments/oaowf5/episode_3_making_a_living/
+  github: >-
+    https://github.com/FOSSforlife/solutions/blob/main/show-notes/show-notes/003
+    - Making a Living.md
 info:
   title: Making a Living
   description: >-
-    In the third episode of Solutions, we discuss why wages have stagnated, and what it will take to ensure the financial security of all working Americans. We'll examine the latest evidence on the impact of minimum wages, but also why raising the minimum wage won't be enough, as the complexity of today's economy demands tackling this issue from multiple angles.
+    In the third episode of Solutions, we discuss why wages have stagnated, and
+    what it will take to ensure the financial security of all working Americans.
+    We'll examine the latest evidence on the impact of minimum wages, but also
+    why raising the minimum wage won't be enough, as the complexity of today's
+    economy demands tackling this issue from multiple angles.
