@@ -13,7 +13,7 @@ Intro music: “Eternal Bonds” by Sha Nova. Check them out on [Spotify](https:
 # Timestamps
 
 ```
-`0:00 Introduction
+0:00 Introduction
 1:21 How bad is the problem?
 2:27 Potential causes: business decisions, monopsony power
 4:09 Potential causes: free trade, immigration
@@ -92,13 +92,13 @@ Alternatively, a cheaper yet similar solution would be to take advantage of a cu
 
 - [**Raising the federal minimum wage gradually to $15/hour**](https://www.vox.com/future-perfect/2019/11/20/20952151/should-minimum-wage-be-raised) is something that would help millions of workers, and would likely have a minimal impact on employment.
 
-- Until raising the federal minimum wage becomes more politically viable, we can increase wages on a granular level through [**state and local minimum wage policy]\*\*(https://www.ncsl.org/research/labor-and-employment/state-minimum-wage-chart.aspx).
+- Until raising the federal minimum wage becomes more politically viable, we can increase wages on a granular level through [**state and local minimum wage policy**](https://www.ncsl.org/research/labor-and-employment/state-minimum-wage-chart.aspx).
 
 - We can also convene [**wage boards**](https://www.nytimes.com/2015/05/07/nyregion/cuomo-moves-to-raise-wages-for-new-york-fast-food-workers.html) at a local level to legislate policy that increases wages for particular industries.
 
-- [**Higher unionization]**(http://www.stateofworkingamerica.org/chart/swa-wages-table-4-33-union-wage-premium/) and [**more jobs]\*\*(https://www.epi.org/publication/creating-jobs-and-economic-security/) have been proven to increase wages as well.
+- [**Higher unionization**](http://www.stateofworkingamerica.org/chart/swa-wages-table-4-33-union-wage-premium/) and [**more jobs**](https://www.epi.org/publication/creating-jobs-and-economic-security/) have been proven to increase wages as well.
 
-- In order to account for all types of workers, we also need solutions that aren’t centered around wages. The government should be providing payments in the form of a [**negative income tax**](https://www.tandfonline.com/doi/abs/10.1080/10875549.2014.991889) (which provides for everyone) or an [**increase in the earned income tax credit]\*\*(https://costoflivingrefund.org) (which specifically goes to workers).
+- In order to account for all types of workers, we also need solutions that aren’t centered around wages. The government should be providing payments in the form of a [**negative income tax**](https://www.tandfonline.com/doi/abs/10.1080/10875549.2014.991889) (which provides for everyone) or an [**increase in the earned income tax credit**](https://costoflivingrefund.org) (which specifically goes to workers).
 
 # Acknowledgement
 
